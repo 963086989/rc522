@@ -28,8 +28,6 @@ def menu():
     print("q、退出")
     return input("输入：")
 
-
-
 def shuaka():
     # 获取刷卡数据
     id = ic.getData()
@@ -87,11 +85,6 @@ def shanchu():
             playerror()
     else:
         playjiushebude()
-
-
-
-
-
 
 
 if __name__ == "__main__":
