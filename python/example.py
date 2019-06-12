@@ -2,12 +2,13 @@
 
 import subprocess
 
+
 def playsuccess():
     subprocess.Popen(['mpg123', '-q', 'audio/success.mp3']).wait()
 
 # 播放最新的语音
 def playmusic():
-    subprocess.Popen(['mpg123', '-q', 'audio/x_xiaofang.mp3']).wait()
+    subprocess.Popen(['mpg123', '-q', 'audio/x_xiaoyuan.mp3']).wait()
 
 # 播放出现错误的语音
 def playerror():

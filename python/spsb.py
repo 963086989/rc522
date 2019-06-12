@@ -22,7 +22,7 @@ class IC(object):
             (error, uid) = self.rdr.anticoll()
             if not error:
                 print("Card read UID: "+str(uid[0])+","+str(uid[1])+","+str(uid[2])+","+str(uid[3]))
-                data = chr(uid[0])+chr(uid[1])+chr(uid[2])+chr(uid[3])
+                data = str(uid[0])+str(uid[1])+str(uid[2])+str(uid[3])
                 return True, data
 
     def getData(self):
